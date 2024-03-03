@@ -73,3 +73,49 @@ header::after {
   display: block;
   margin-top: 40px;
 }
+
+/*  */
+#midnight-party {
+  position: relative; /* Needed for positioning pseudo-element */
+  background-image: url("./image//Vectorrr.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 1320px;
+  margin: 100px auto;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#midnight-party::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.5),
+    transparent
+  ); /* Adjust the colors and opacity as needed */
+  z-index: 1;
+}
+
+#midnight-party-content {
+  z-index: 2;
+  padding: 0 150px;
+}
+
+#midnight-party-content h1 {
+  font-size: 60px;
+}
+
+#midnight-party-content p {
+  font-size: 20px;
+}
+
+#midnight-party-title {
+  margin-bottom: 10px;
+}
