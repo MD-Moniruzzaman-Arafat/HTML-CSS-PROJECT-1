@@ -260,6 +260,10 @@ header::after {
   gap: 10px;
   margin-bottom: 10px;
 }
+.awesome-img img:hover {
+  border: 5px solid gray;
+  border-radius: 20px;
+}
 
 /* newsletter section */
 #newsletter {
