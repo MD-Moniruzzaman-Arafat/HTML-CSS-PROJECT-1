@@ -300,3 +300,33 @@ button {
   background-color: red;
   border: none;
 }
+
+/* footer section */
+footer {
+  background-color: black;
+  color: white;
+  padding: 100px;
+}
+#footer-container {
+  width: 1320px;
+  margin: 0 auto;
+}
+#info {
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+}
+hr {
+  border-color: gray;
+  margin: 10px 0;
+}
+#info p {
+  display: flex;
+  gap: 5px;
+}
+#socile {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
