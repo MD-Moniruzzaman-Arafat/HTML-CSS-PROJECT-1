@@ -197,6 +197,7 @@ header::after {
 #holidays-sale {
   margin: 100px auto;
   width: 1320px;
+  height: 886px;
 }
 #holidays-sale-header {
   text-align: center;
@@ -233,4 +234,29 @@ header::after {
 #offer {
   position: absolute;
   right: 230px;
+}
+
+/* awesome portfolio section */
+#awesome-portfolio {
+  margin: 100px auto;
+  width: 1320px;
+}
+#awesome-portfolio-header {
+  margin-bottom: 20px;
+}
+#awesome-portfolio-header h4 {
+  color: red;
+  font-weight: 400;
+}
+#awesome-portfolio-header h1 {
+  font-size: 45px;
+  margin: 10px 0;
+}
+#awesome-portfolio-header p {
+  width: 600px;
+}
+.awesome-img {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
 }
