@@ -157,3 +157,38 @@ header::after {
   display: inline-block;
   margin-top: 20px;
 }
+
+/* coming soon section*/
+#coming-soon {
+  width: 1320px;
+  display: flex;
+  margin: 100px auto;
+  align-items: center;
+}
+#coming-soon-description {
+  width: 30%;
+}
+#coming-soon-description h4 {
+  color: red;
+  font-weight: 400;
+}
+#coming-soon-description h1 {
+  font-size: 40px;
+  color: red;
+}
+#coming-soon-description h2 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+#coming-soon-description p {
+  margin: 10px 0;
+}
+#coming-soon-img {
+  width: 30%;
+  margin: 0 5%;
+}
+#coming-soon-img img {
+  border: 5px solid red;
+  border-radius: 50%;
+  padding: 20px;
+}
